@@ -28,13 +28,13 @@
 }
 
 .header__logo {
-  width: 148px;
+  width: 140px;
   height: 105px;
 }
 
 .address {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-self: end;
   max-width: 240px;
   font-size: 18px;
@@ -57,7 +57,7 @@
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-color: rgb(0 0 0 / 0.40);
+  background-color: rgb(0 0 0 / 0.60);
 } 
 
 .cover__title {
@@ -76,6 +76,8 @@
 }
 
 .aligned-text_center {
+  margin-left: 40px;
+  letter-spacing: 45px;
   text-align: center;
 }
 
